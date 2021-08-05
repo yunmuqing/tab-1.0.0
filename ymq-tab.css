@@ -1,364 +1,364 @@
 .ymq_tab_icon,.ymq_tab_icon_active{
-        display: inline-block;
-        width: 14px;
-        float: right;
+        display: inline-block !important;
+        width: 14px !important;
+        float: right !important;
     }
     .ymq_tab_icon_active{
-        display: none;
+        display: none !important;
     }
     .ymq-tabs-li-active .ymq_tab_icon{
-        display: none;
+        display: none !important;
     }
     .ymq-tabs-li-active .ymq_tab_icon_active{
-        display: block;
+        display: block !important;
     }
 .ymq_tab_icon_transform{
-        -webkit-transform: rotate(180deg);
-        -moz-transform: rotate(180deg);
-        -o-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg) !important;
+        -moz-transform: rotate(180deg) !important;
+        -o-transform: rotate(180deg) !important;
+        -ms-transform: rotate(180deg) !important;
+        transform: rotate(180deg) !important;
     }
 .ymq-tabs-li{
-  -moz-user-select:none; /* Firefox私有属性 */
-        -webkit-user-select:none; /* WebKit内核私有属性 */
-        -ms-user-select:none; /* IE私有属性(IE10及以后) */
-        -khtml-user-select:none; /* KHTML内核私有属性 */
-        -o-user-select:none; /* Opera私有属性 */
-        user-select:none; /* CSS3属性 */
+  -moz-user-select:none !important;
+        -webkit-user-select:none !important; 
+        -ms-user-select:none !important; 
+        -khtml-user-select:none !important;
+        -o-user-select:none !important;
+        user-select:none !important;
+
+}
+.ymq-tabs-li{
+    font-size: calc(var(--title-font-size) * 1px) !important;
+    font-weight: var(--title-font-style) !important;
+    font-style: var(--title-font-style) !important;
 }
 #ymq-tab-box1 .ymq-tabs-ul{
-  display: flex !important;
+  display: flex  !important;;
 }
 #ymq-tab-box2 .ymq-tabs-ul{
-  display: block !important;
+  display: block  !important;;
 }
 .ymq-style-1 .ymq-tabs-ul{
-    padding: 0!important;
-    margin: 0!important;
+    padding: 0 !important;;
+    margin: 0 !important;;
   }
   .ymq_tab_icon_active{
-        fill: var(--icon-active-color);
+        fill: var(--icon-active-color) !important;
     }
     .ymq_tab_icon{
-        fill: var(--icon-color);
+        fill: var(--icon-color) !important;
     }
   .ymq-style-1 .ymq-tabs-li{
-    background-color: var(--title-bg-color1);
-    color: var(--title-text-color1);
-    border-top-color: var(--title-border-color1);
-    border-left-color: var(--title-border-color1);
-    border-right-color: var(--title-border-color1);
-    border-bottom-color: var(--title-border-color1);
-    border-top-width: calc(var(--title-border-width-top1) * 1px);
-    border-right-width: calc(var(--title-border-width-right1) * 1px);
-    border-bottom-width: calc(var(--title-border-width-bottom1) * 1px);
-    border-left-width: calc(var(--title-border-width-left1) * 1px);
-    border-radius: calc(var(--title-border-radius1) * 1px);
-    font-style: normal;
-    font-weight: 500;
-    font-size: calc(var(--title-font-size) * 1px);
-    margin: calc(var(--title-margin-top1) * 1px) calc(var(--title-margin-right1) * 1px) calc(var(--title-margin-bottom1) * 1px) calc(var(--title-margin-left1) * 1px);
-    cursor: pointer;
-    padding: calc(var(--title-padding-top) * 1px) calc(var(--title-padding-right) * 1px) calc(var(--title-padding-bottom) * 1px) calc(var(--title-padding-left) * 1px);
-    border-style: solid;
+    background-color: var(--title-bg-color1) !important;
+    color: var(--title-text-color1) !important;
+    border-top-color: var(--title-border-color1) !important;
+    border-left-color: var(--title-border-color1) !important;
+    border-right-color: var(--title-border-color1) !important;
+    border-bottom-color: var(--title-border-color1) !important;
+    border-top-width: calc(var(--title-border-width-top1) * 1px) !important;
+    border-right-width: calc(var(--title-border-width-right1) * 1px) !important;
+    border-bottom-width: calc(var(--title-border-width-bottom1) * 1px) !important;
+    border-left-width: calc(var(--title-border-width-left1) * 1px) !important;
+    border-radius: 0 !important;
+    border-top-left-radius: calc(var(--title-border-radius1) * 1px) !important;
+    border-top-right-radius: calc(var(--title-border-radius1) * 1px) !important;
+    margin: calc(var(--title-margin-top1) * 1px) calc(var(--title-margin-right1) * 1px) calc(var(--title-margin-bottom1) * 1px) calc(var(--title-margin-left1) * 1px) !important;
+    cursor: pointer !important;
+    padding: calc(var(--title-padding-top) * 1px) calc(var(--title-padding-right) * 1px) calc(var(--title-padding-bottom) * 1px) calc(var(--title-padding-left) * 1px) !important;
+    border-style: solid !important;
   }
   #ymq-tab-box1 .ymq-tabs-li{
-    display: inline-block;
+    display: inline-block !important;
   }
   #ymq-tab-box2 .ymq-tabs-li{
-    display: block;
+    display: block !important;
   }
   .ymq-style-1 .ymq-tabs-li:not(.ymq-tabs-li-active):hover{
-    background-color: var(--title-hover-bg-color1);
+    background-color: var(--title-hover-bg-color1) !important;
   }
   .ymq-style-1 .ymq-tabs-li-active{
-    background-color: var(--title-active-bg-color1);
-    color: var(--title-active-text-color1);
-    border-top-color: var(--title-active-border-color1);
-    border-left-color: var(--title-active-border-color1);
-    border-right-color: var(--title-active-border-color1);
-    border-bottom-color: var(--title-active-border-color1);
-    border-top-width: calc(var(--title-active-border-width-top1) * 1px);
-    border-right-width: calc(var(--title-active-border-width-right1) * 1px);
-    border-bottom-width: calc(var(--title-active-border-width-bottom1) * 1px);
-    border-left-width: calc(var(--title-active-border-width-left1) * 1px);
-    
-    font-style: normal;
-    margin: calc(var(--title-margin-top1) * 1px) calc(var(--title-margin-right1) * 1px) calc((var(--title-margin-bottom1) - 1) * 1px) calc(var(--title-margin-left1) * 1px);
+    background-color: var(--title-active-bg-color1) !important;
+    color: var(--title-active-text-color1) !important;
+    border-top-color: var(--title-active-border-color1) !important;
+    border-left-color: var(--title-active-border-color1) !important;
+    border-right-color: var(--title-active-border-color1) !important;
+    border-bottom-color: var(--title-active-border-color1) !important;
+    border-top-width: calc(var(--title-active-border-width-top1) * 1px) !important;
+    border-right-width: calc(var(--title-active-border-width-right1) * 1px) !important;
+    border-bottom-width: calc(var(--title-active-border-width-bottom1) * 1px) !important;
+    border-left-width: calc(var(--title-active-border-width-left1) * 1px) !important;
+    margin: calc(var(--title-margin-top1) * 1px) calc(var(--title-margin-right1) * 1px) calc((var(--title-margin-bottom1) - 1) * 1px) calc(var(--title-margin-left1) * 1px) !important;
 
   }
   .ymq-style-1 .ymq-tab-content-item{
-    display: none;
-    background-color: var(--content-bg-color1);
-    color: var(--content-text-color1);
-    border-color: var(--content-border-color1);
-    border-radius: calc(var(--content-border-radius) * 1px);
-    padding: calc(var(--content-padding-top) * 1px) calc(var(--content-padding-right) * 1px) calc(var(--content-padding-bottom) * 1px) calc(var(--content-padding-left) * 1px);
-    font-size: 13px;
-    border-style: solid;
-    border-color: var(--content-border-color1);
-    border-top-width: calc(var(--content-border-width-top1) * 1px);
-    border-right-width: calc(var(--content-border-width-right1) * 1px);
-    border-bottom-width: calc(var(--content-border-width-bottom1) * 1px);
-    border-left-width: calc(var(--content-border-width-left1) * 1px);
+    display: none !important;
+    background-color: var(--content-bg-color1) !important;
+    color: var(--content-text-color1) !important;
+    border-color: var(--content-border-color1) !important;
+    border-radius: 0 !important;
+    border-bottom-left-radius: calc(var(--content-border-radius) * 1px) !important;
+    border-bottom-right-radius: calc(var(--content-border-radius) * 1px) !important;
+    padding: calc(var(--content-padding-top) * 1px) calc(var(--content-padding-right) * 1px) calc(var(--content-padding-bottom) * 1px) calc(var(--content-padding-left) * 1px) !important;
+    border-style: solid !important;
+    border-color: var(--content-border-color1) !important;
+    border-top-width: calc(var(--content-border-width-top1) * 1px) !important;
+    border-right-width: calc(var(--content-border-width-right1) * 1px) !important;
+    border-bottom-width: calc(var(--content-border-width-bottom1) * 1px) !important;
+    border-left-width: calc(var(--content-border-width-left1) * 1px) !important;
   }
   .ymq-style-1 .ymq-tab-content-item-active{
-    display: block;
+    display: block !important;
   }
   
   
   .ymq-style-2 .ymq-tabs-ul{
-    padding: 0!important;
-    margin: 0!important;
+    padding: 0 !important;;
+    margin: 0 !important;;
   }
   .ymq-style-2 .ymq-tabs-li{
-    background-color: var(--title-bg-color2);
-    color: var(--title-text-color2);
-    border-top-color: var(--title-border-color2);
-    border-left-color: var(--title-border-color2);
-    border-right-color: var(--title-border-color2);
-    border-bottom-color: var(--title-border-color2);
+    background-color: var(--title-bg-color2) !important;
+    color: var(--title-text-color2) !important;
+    border-top-color: var(--title-border-color2) !important;
+    border-left-color: var(--title-border-color2) !important;
+    border-right-color: var(--title-border-color2) !important;
+    border-bottom-color: var(--title-border-color2) !important;
 
-    border-top-width: calc(var(--title-border-width-top2) * 1px);
-    border-right-width: calc(var(--title-border-width-right2) * 1px);
-    border-bottom-width: calc(var(--title-border-width-bottom2) * 1px);
-    border-left-width: calc(var(--title-border-width-left2) * 1px);
-    border-radius: calc(var(--title-border-radius2) * 1px);
-    font-style: normal;
-    font-weight: 500;
-    font-size: calc(var(--title-font-size) * 1px);
-    margin: calc(var(--title-margin-top2) * 1px) calc(var(--title-margin-right2) * 1px) calc(var(--title-margin-bottom2) * 1px) calc(var(--title-margin-left2) * 1px);
-    cursor: pointer;
-    padding: calc(var(--title-padding-top) * 1px) calc(var(--title-padding-right) * 1px) calc(var(--title-padding-bottom) * 1px) calc(var(--title-padding-left) * 1px);
-    border-style: solid;
+    border-top-width: calc(var(--title-border-width-top2) * 1px) !important;
+    border-right-width: calc(var(--title-border-width-right2) * 1px) !important;
+    border-bottom-width: calc(var(--title-border-width-bottom2) * 1px) !important;
+    border-left-width: calc(var(--title-border-width-left2) * 1px) !important;
+    border-radius: 0 !important;
+    border-top-left-radius: calc(var(--title-border-radius1) * 1px) !important;
+    border-top-right-radius: calc(var(--title-border-radius1) * 1px) !important;
+    margin: calc(var(--title-margin-top2) * 1px) calc(var(--title-margin-right2) * 1px) calc(var(--title-margin-bottom2) * 1px) calc(var(--title-margin-left2) * 1px) !important;
+    cursor: pointer !important;
+    padding: calc(var(--title-padding-top) * 1px) calc(var(--title-padding-right) * 1px) calc(var(--title-padding-bottom) * 1px) calc(var(--title-padding-left) * 1px) !important;
+    border-style: solid !important;
   }
   .ymq-style-2 .ymq-tabs-li:not(.ymq-tabs-li-active):hover{
-    background-color: var(--title-hover-bg-color2);
+    background-color: var(--title-hover-bg-color2) !important;
   }
   .ymq-style-2 .ymq-tabs-li-active{
-    background-color: var(--title-active-bg-color2);
-    color: var(--title-active-text-color2);
-    border-top-color: var(--title-active-border-color2);
-    border-left-color: var(--title-active-border-color2);
-    border-right-color: var(--title-active-border-color2);
-    border-bottom-color: var(--title-active-border-color2);
-    border-top-width: calc(var(--title-active-border-width-top2) * 1px);
-    border-right-width: calc(var(--title-active-border-width-right2) * 1px);
-    border-bottom-width: calc(var(--title-active-border-width-bottom2) * 1px);
-    border-left-width: calc(var(--title-active-border-width-left2) * 1px);
+    background-color: var(--title-active-bg-color2) !important;
+    color: var(--title-active-text-color2) !important;
+    border-top-color: var(--title-active-border-color2) !important;
+    border-left-color: var(--title-active-border-color2) !important;
+    border-right-color: var(--title-active-border-color2) !important;
+    border-bottom-color: var(--title-active-border-color2) !important;
+    border-top-width: calc(var(--title-active-border-width-top2) * 1px) !important;
+    border-right-width: calc(var(--title-active-border-width-right2) * 1px) !important;
+    border-bottom-width: calc(var(--title-active-border-width-bottom2) * 1px) !important;
+    border-left-width: calc(var(--title-active-border-width-left2) * 1px) !important;
   }
   .ymq-style-2 .ymq-tab-content-item{
-    display: none;
-    background-color: var(--content-bg-color2);
-    color: var(--content-text-color2);
-    border-color: var(--content-border-color2);
-    border-radius: calc(var(--content-border-radius) * 1px);
-    padding: calc(var(--content-padding-top) * 1px) calc(var(--content-padding-right) * 1px) calc(var(--content-padding-bottom) * 1px) calc(var(--content-padding-left) * 1px);
-    font-size: 13px;
-    border-style: solid;
-    border-color: var(--content-border-color2);
-    border-top-width: calc(var(--content-border-width-top2) * 1px);
-    border-right-width: calc(var(--content-border-width-right2) * 1px);
-    border-bottom-width: calc(var(--content-border-width-bottom2) * 1px);
-    border-left-width: calc(var(--content-border-width-left2) * 1px);
+    display: none !important;
+    background-color: var(--content-bg-color2) !important;
+    color: var(--content-text-color2) !important;
+    border-color: var(--content-border-color2) !important;
+    border-radius: 0 !important;
+    border-bottom-left-radius: calc(var(--content-border-radius) * 1px) !important;
+    border-bottom-right-radius: calc(var(--content-border-radius) * 1px) !important;
+    padding: calc(var(--content-padding-top) * 1px) calc(var(--content-padding-right) * 1px) calc(var(--content-padding-bottom) * 1px) calc(var(--content-padding-left) * 1px) !important;
+    border-style: solid !important;
+    border-color: var(--content-border-color2) !important;
+    border-top-width: calc(var(--content-border-width-top2) * 1px) !important;
+    border-right-width: calc(var(--content-border-width-right2) * 1px) !important;
+    border-bottom-width: calc(var(--content-border-width-bottom2) * 1px) !important;
+    border-left-width: calc(var(--content-border-width-left2) * 1px) !important;
   }
   .ymq-style-2 .ymq-tab-content-item-active{
-    display: block;
+    display: block !important;
   }
   
   
   .ymq-style-3 .ymq-tabs-ul{
-    padding: 0!important;
-    margin: 0!important;
+    padding: 0 !important;;
+    margin: 0 !important;;
   }
   .ymq-style-3 .ymq-tabs-li{
-    background-color: var(--title-bg-color3);
-    color: var(--title-text-color3);
-    border-top-color: var(--title-border-color3);
-    border-left-color: var(--title-border-color3);
-    border-right-color: var(--title-border-color3);
-    border-bottom-color: var(--title-border-color3);
+    background-color: var(--title-bg-color3) !important;
+    color: var(--title-text-color3) !important;
+    border-top-color: var(--title-border-color3) !important;
+    border-left-color: var(--title-border-color3) !important;
+    border-right-color: var(--title-border-color3) !important;
+    border-bottom-color: var(--title-border-color3) !important;
 
-    border-top-width: calc(var(--title-border-width-top3) * 1px);
-    border-right-width: calc(var(--title-border-width-right3) * 1px);
-    border-bottom-width: calc(var(--title-border-width-bottom3) * 1px);
-    border-left-width: calc(var(--title-border-width-left3) * 1px);
+    border-top-width: calc(var(--title-border-width-top3) * 1px) !important;
+    border-right-width: calc(var(--title-border-width-right3) * 1px) !important;
+    border-bottom-width: calc(var(--title-border-width-bottom3) * 1px) !important;
+    border-left-width: calc(var(--title-border-width-left3) * 1px) !important;
 
-    border-radius: calc(var(--title-border-radius3) * 1px);
-
-    font-style: normal;
-    font-weight: 500;
-    font-size: calc(var(--title-font-size) * 1px);
-    margin: calc(var(--title-margin-top3) * 1px) calc(var(--title-margin-right3) * 1px) calc(var(--title-margin-bottom3) * 1px) calc(var(--title-margin-left3) * 1px);
-    cursor: pointer;
-    padding: calc(var(--title-padding-top) * 1px) calc(var(--title-padding-right) * 1px) calc(var(--title-padding-bottom) * 1px) calc(var(--title-padding-left) * 1px);
-    border-style: solid;
+    border-radius: calc(var(--title-border-radius3) * 1px) !important;
+    margin: calc(var(--title-margin-top3) * 1px) calc(var(--title-margin-right3) * 1px) calc(var(--title-margin-bottom3) * 1px) calc(var(--title-margin-left3) * 1px) !important;
+    cursor: pointer !important;
+    padding: calc(var(--title-padding-top) * 1px) calc(var(--title-padding-right) * 1px) calc(var(--title-padding-bottom) * 1px) calc(var(--title-padding-left) * 1px) !important;
+    border-style: solid !important;
   }
   .ymq-style-3 .ymq-tabs-li:not(.ymq-tabs-li-active):hover{
-    background-color: var(--title-hover-bg-color3);
+    background-color: var(--title-hover-bg-color3) !important;
   }
   .ymq-style-3 .ymq-tabs-li-active{
-    background-color: var(--title-active-bg-color3);
-    color: var(--title-active-text-color3);
-    border-top-color: var(--title-active-border-color3);
-    border-left-color: var(--title-active-border-color3);
-    border-right-color: var(--title-active-border-color3);
-    border-bottom-color: var(--title-active-border-color3);
-    border-top-width: calc(var(--title-active-border-width-top3) * 1px);
-    border-right-width: calc(var(--title-active-border-width-right3) * 1px);
-    border-bottom-width: calc(var(--title-active-border-width-bottom3) * 1px);
-    border-left-width: calc(var(--title-active-border-width-left3) * 1px);
-    font-style: normal;
-    margin: calc(var(--title-margin-top3) * 1px) calc(var(--title-margin-right3) * 1px) calc((var(--title-margin-bottom3) - 1) * 1px) calc(var(--title-margin-left3) * 1px);
+    background-color: var(--title-active-bg-color3) !important;
+    color: var(--title-active-text-color3) !important;
+    border-top-color: var(--title-active-border-color3) !important;
+    border-left-color: var(--title-active-border-color3) !important;
+    border-right-color: var(--title-active-border-color3) !important;
+    border-bottom-color: var(--title-active-border-color3) !important;
+    border-top-width: calc(var(--title-active-border-width-top3) * 1px) !important;
+    border-right-width: calc(var(--title-active-border-width-right3) * 1px) !important;
+    border-bottom-width: calc(var(--title-active-border-width-bottom3) * 1px) !important;
+    border-left-width: calc(var(--title-active-border-width-left3) * 1px) !important;
+    margin: calc(var(--title-margin-top3) * 1px) calc(var(--title-margin-right3) * 1px) calc((var(--title-margin-bottom3) - 1) * 1px) calc(var(--title-margin-left3) * 1px) !important;
 
   }
   .ymq-style-3 .ymq-tab-content-item{
-    display: none;
-    background-color: var(--content-bg-color3);
-    color: var(--content-text-color3);
-    border-color: var(--content-border-color3);
-    border-radius: calc(var(--content-border-radius) * 1px);
-    padding: calc(var(--content-padding-top) * 1px) calc(var(--content-padding-right) * 1px) calc(var(--content-padding-bottom) * 1px) calc(var(--content-padding-left) * 1px);
-    font-size: 13px;
-    border-style: solid;
-    border-color: var(--content-border-color3);
-    border-top-width: calc(var(--content-border-width-top3) * 1px);
-    border-right-width: calc(var(--content-border-width-right3) * 1px);
-    border-bottom-width: calc(var(--content-border-width-bottom3) * 1px);
-    border-left-width: calc(var(--content-border-width-left3) * 1px);
+    display: none !important;
+    background-color: var(--content-bg-color3) !important;
+    color: var(--content-text-color3) !important;
+    border-color: var(--content-border-color3) !important;
+    border-radius: calc(var(--content-border-radius) * 1px) !important;
+    padding: calc(var(--content-padding-top) * 1px) calc(var(--content-padding-right) * 1px) calc(var(--content-padding-bottom) * 1px) calc(var(--content-padding-left) * 1px) !important;
+    border-style: solid !important;
+    border-color: var(--content-border-color3) !important;
+    border-top-width: calc(var(--content-border-width-top3) * 1px) !important;
+    border-right-width: calc(var(--content-border-width-right3) * 1px) !important;
+    border-bottom-width: calc(var(--content-border-width-bottom3) * 1px) !important;
+    border-left-width: calc(var(--content-border-width-left3) * 1px) !important;
   }
   .ymq-style-3 .ymq-tab-content-item-active{
-    display: block;
+    display: block !important;
   }
   
   .ymq-style-4 .ymq-tabs-ul{
-    padding: 0!important;
-    margin: 0!important;
+    padding: 0 !important;;
+    margin: 0 !important;;
   }
   .ymq-style-4 .ymq-tabs-li{
-    background-color: var(--title-bg-color4);
-    color: var(--title-text-color4);
-    border-top-color: var(--title-border-color4);
-    border-left-color: var(--title-border-color4);
-    border-right-color: var(--title-border-color4);
-    border-bottom-color: var(--title-border-color4);
+    background-color: var(--title-bg-color4) !important;
+    color: var(--title-text-color4) !important;
+    border-top-color: var(--title-border-color4) !important;
+    border-left-color: var(--title-border-color4) !important;
+    border-right-color: var(--title-border-color4) !important;
+    border-bottom-color: var(--title-border-color4) !important;
 
-    border-top-width: calc(var(--title-border-width-top4) * 1px);
-    border-right-width: calc(var(--title-border-width-right4) * 1px);
-    border-bottom-width: calc(var(--title-border-width-bottom4) * 1px);
-    border-left-width: calc(var(--title-border-width-left4) * 1px);
+    border-top-width: calc(var(--title-border-width-top4) * 1px) !important;
+    border-right-width: calc(var(--title-border-width-right4) * 1px) !important;
+    border-bottom-width: calc(var(--title-border-width-bottom4) * 1px) !important;
+    border-left-width: calc(var(--title-border-width-left4) * 1px) !important;
 
-    border-radius: calc(var(--title-border-radius4) * 1px);
-    font-style: normal;
-    font-weight: 500;
-    font-size: calc(var(--title-font-size) * 1px);
-    margin: calc(var(--title-margin-top4) * 1px) calc(var(--title-margin-right4) * 1px) calc(var(--title-margin-bottom4) * 1px) calc(var(--title-margin-left4) * 1px);
-    cursor: pointer;
-    padding: calc(var(--title-padding-top) * 1px) calc(var(--title-padding-right) * 1px) calc(var(--title-padding-bottom) * 1px) calc(var(--title-padding-left) * 1px);
-    border-style: solid;
+    border-radius: 0 !important;
+    border-top-left-radius: calc(var(--title-border-radius1) * 1px) !important;
+    border-top-right-radius: calc(var(--title-border-radius1) * 1px) !important;
+    margin: calc(var(--title-margin-top4) * 1px) calc(var(--title-margin-right4) * 1px) calc(var(--title-margin-bottom4) * 1px) calc(var(--title-margin-left4) * 1px) !important;
+    cursor: pointer !important;
+    padding: calc(var(--title-padding-top) * 1px) calc(var(--title-padding-right) * 1px) calc(var(--title-padding-bottom) * 1px) calc(var(--title-padding-left) * 1px) !important;
+    border-style: solid !important;
   }
   .ymq-style-4 .ymq-tabs-li:not(.ymq-tabs-li-active):hover{
-    background-color: var(--title-hover-bg-color4);
+    background-color: var(--title-hover-bg-color4) !important;
   }
   .ymq-style-4 .ymq-tabs-li-active{
-    background-color: var(--title-active-bg-color4);
-    color: var(--title-active-text-color4);
-    border-top-color: var(--title-active-border-color4);
-    border-left-color: var(--title-active-border-color4);
-    border-right-color: var(--title-active-border-color4);
-    border-bottom-color: var(--title-active-border-color4);
-    border-top-width: calc(var(--title-active-border-width-top4) * 1px);
-    border-right-width: calc(var(--title-active-border-width-right4) * 1px);
-    border-bottom-width: calc(var(--title-active-border-width-bottom4) * 1px);
-    border-left-width: calc(var(--title-active-border-width-left4) * 1px);
-    margin: calc(var(--title-margin-top4) * 1px) calc(var(--title-margin-right4) * 1px) calc((var(--title-margin-bottom4) - 1) * 1px) calc(var(--title-margin-left4) * 1px);
+    background-color: var(--title-active-bg-color4) !important;
+    color: var(--title-active-text-color4) !important;
+    border-top-color: var(--title-active-border-color4) !important;
+    border-left-color: var(--title-active-border-color4) !important;
+    border-right-color: var(--title-active-border-color4) !important;
+    border-bottom-color: var(--title-active-border-color4) !important;
+    border-top-width: calc(var(--title-active-border-width-top4) * 1px) !important;
+    border-right-width: calc(var(--title-active-border-width-right4) * 1px) !important;
+    border-bottom-width: calc(var(--title-active-border-width-bottom4) * 1px) !important;
+    border-left-width: calc(var(--title-active-border-width-left4) * 1px) !important;
+    margin: calc(var(--title-margin-top4) * 1px) calc(var(--title-margin-right4) * 1px) calc((var(--title-margin-bottom4) - 1) * 1px) calc(var(--title-margin-left4) * 1px) !important;
 
   }
   .ymq-style-4 .ymq-tab-content-item{
-    display: none;
-    background-color: var(--content-bg-color4);
-    color: var(--content-text-color4);
-    border-color: var(--content-border-color4);
-    border-radius: calc(var(--content-border-radius) * 1px);
-    padding: calc(var(--content-padding-top) * 1px) calc(var(--content-padding-right) * 1px) calc(var(--content-padding-bottom) * 1px) calc(var(--content-padding-left) * 1px);
-    font-size: 13px;
-    border-style: solid;
-    border-color: var(--content-border-color4);
-    border-top-width: calc(var(--content-border-width-top4) * 1px);
-    border-right-width: calc(var(--content-border-width-right4) * 1px);
-    border-bottom-width: calc(var(--content-border-width-bottom4) * 1px);
-    border-left-width: calc(var(--content-border-width-left4) * 1px);
+    display: none !important;
+    background-color: var(--content-bg-color4) !important;
+    color: var(--content-text-color4) !important;
+    border-color: var(--content-border-color4) !important;
+    border-radius: 0 !important;
+    border-bottom-left-radius: calc(var(--content-border-radius) * 1px) !important;
+    border-bottom-right-radius: calc(var(--content-border-radius) * 1px) !important;
+    padding: calc(var(--content-padding-top) * 1px) calc(var(--content-padding-right) * 1px) calc(var(--content-padding-bottom) * 1px) calc(var(--content-padding-left) * 1px) !important;
+    border-style: solid !important;
+    border-color: var(--content-border-color4) !important;
+    border-top-width: calc(var(--content-border-width-top4) * 1px) !important;
+    border-right-width: calc(var(--content-border-width-right4) * 1px) !important;
+    border-bottom-width: calc(var(--content-border-width-bottom4) * 1px) !important;
+    border-left-width: calc(var(--content-border-width-left4) * 1px) !important;
   }
   .ymq-style-4 .ymq-tab-content-item-active{
-    display: block;
+    display: block !important;
   }
   
   .ymq-style-5 .ymq-tabs-ul{
-    padding: 0!important;
-    margin: 0!important;
+    padding: 0 !important;;
+    margin: 0 !important;;
   }
   .ymq-style-5 .ymq-tabs-li{
-    background-color: var(--title-bg-color5);
-    color: var(--title-text-color5);
-    border-top-color: var(--title-border-color5);
-    border-left-color: var(--title-border-color5);
-    border-right-color: var(--title-border-color5);
-    border-bottom-color: var(--title-border-color5);
+    background-color: var(--title-bg-color5) !important;
+    color: var(--title-text-color5) !important;
+    border-top-color: var(--title-border-color5) !important;
+    border-left-color: var(--title-border-color5) !important;
+    border-right-color: var(--title-border-color5) !important;
+    border-bottom-color: var(--title-border-color5) !important;
 
-    border-top-width: calc(var(--title-border-width-top5) * 1px);
-    border-right-width: calc(var(--title-border-width-right5) * 1px);
-    border-bottom-width: calc(var(--title-border-width-bottom5) * 1px);
-    border-left-width: calc(var(--title-border-width-left5) * 1px);
+    border-top-width: calc(var(--title-border-width-top5) * 1px) !important;
+    border-right-width: calc(var(--title-border-width-right5) * 1px) !important;
+    border-bottom-width: calc(var(--title-border-width-bottom5) * 1px) !important;
+    border-left-width: calc(var(--title-border-width-left5) * 1px) !important;
 
-    border-radius: calc(var(--title-border-radius5) * 1px);
-    font-style: normal;
-    font-weight: 500;
-    font-size: calc(var(--title-font-size) * 1px);
-    margin: calc(var(--title-margin-top5) * 1px) calc(var(--title-margin-right5) * 1px) calc(var(--title-margin-bottom5) * 1px) calc(var(--title-margin-left5) * 1px);
-    cursor: pointer;
-    padding: calc(var(--title-padding-top) * 1px) calc(var(--title-padding-right) * 1px) calc(var(--title-padding-bottom) * 1px) calc(var(--title-padding-left) * 1px);
-    border-style: solid;
+    border-radius: 0 !important;
+    border-top-left-radius: calc(var(--title-border-radius1) * 1px) !important;
+    margin: calc(var(--title-margin-top5) * 1px) calc(var(--title-margin-right5) * 1px) calc(var(--title-margin-bottom5) * 1px) calc(var(--title-margin-left5) * 1px) !important;
+    cursor: pointer !important;
+    padding: calc(var(--title-padding-top) * 1px) calc(var(--title-padding-right) * 1px) calc(var(--title-padding-bottom) * 1px) calc(var(--title-padding-left) * 1px) !important;
+    border-style: solid !important;
   }
   .ymq-style-5 .ymq-tabs-li:not(.ymq-tabs-li-active):hover{
-    background-color: var(--title-hover-bg-color5);
+    background-color: var(--title-hover-bg-color5) !important;
   }
   .ymq-style-5 .ymq-tabs-li-active{
-    background-color: var(--title-active-bg-color5);
-    color: var(--title-active-text-color5);
-    border-top-color: var(--title-active-border-color5);
-    border-left-color: var(--title-active-border-color5);
-    border-right-color: var(--title-active-border-color5);
-    border-bottom-color: var(--title-active-border-color5);
-    border-top-width: calc(var(--title-active-border-width-top5) * 1px);
-    border-right-width: calc(var(--title-active-border-width-right5) * 1px);
-    border-bottom-width: calc(var(--title-active-border-width-bottom5) * 1px);
-    border-left-width: calc(var(--title-active-border-width-left5) * 1px);
-    font-style: normal;
-    margin: calc(var(--title-margin-top5) * 1px) calc(var(--title-margin-right5) * 1px) calc((var(--title-margin-bottom5) - 1) * 1px) calc(var(--title-margin-left5) * 1px);
+    background-color: var(--title-active-bg-color5) !important;
+    color: var(--title-active-text-color5) !important;
+    border-top-color: var(--title-active-border-color5) !important;
+    border-left-color: var(--title-active-border-color5) !important;
+    border-right-color: var(--title-active-border-color5) !important;
+    border-bottom-color: var(--title-active-border-color5) !important;
+    border-top-width: calc(var(--title-active-border-width-top5) * 1px) !important;
+    border-right-width: calc(var(--title-active-border-width-right5) * 1px) !important;
+    border-bottom-width: calc(var(--title-active-border-width-bottom5) * 1px) !important;
+    border-left-width: calc(var(--title-active-border-width-left5) * 1px) !important;
+    margin: calc(var(--title-margin-top5) * 1px) calc(var(--title-margin-right5) * 1px) calc((var(--title-margin-bottom5) - 1) * 1px) calc(var(--title-margin-left5) * 1px) !important;
   }
   .ymq-style-5 .ymq-tab-content-item{
-    display: none;
-    background-color: var(--content-bg-color5);
-    color: var(--content-text-color5);
-    border-color: var(--content-border-color5);
-    border-radius: calc(var(--content-border-radius) * 1px);
-    padding: calc(var(--content-padding-top) * 1px) calc(var(--content-padding-right) * 1px) calc(var(--content-padding-bottom) * 1px) calc(var(--content-padding-left) * 1px);
-    font-size: 13px;
-    border-style: solid;
-    border-color: var(--content-border-color5);
-    border-top-width: calc(var(--content-border-width-top5) * 1px);
-    border-right-width: calc(var(--content-border-width-right5) * 1px);
-    border-bottom-width: calc(var(--content-border-width-bottom5) * 1px);
-    border-left-width: calc(var(--content-border-width-left5) * 1px);
+    display: none !important;
+    background-color: var(--content-bg-color5) !important;
+    color: var(--content-text-color5) !important;
+    border-color: var(--content-border-color5) !important;
+    border-radius: 0 !important;
+    border-bottom-left-radius: calc(var(--content-border-radius) * 1px) !important;
+    border-bottom-right-radius: calc(var(--content-border-radius) * 1px) !important;
+    padding: calc(var(--content-padding-top) * 1px) calc(var(--content-padding-right) * 1px) calc(var(--content-padding-bottom) * 1px) calc(var(--content-padding-left) * 1px) !important;
+    border-style: solid !important;
+    border-color: var(--content-border-color5) !important;
+    border-top-width: calc(var(--content-border-width-top5) * 1px) !important;
+    border-right-width: calc(var(--content-border-width-right5) * 1px) !important;
+    border-bottom-width: calc(var(--content-border-width-bottom5) * 1px) !important;
+    border-left-width: calc(var(--content-border-width-left5) * 1px) !important;
   }
 
   .ymq-style-5 .ymq-tab-content-item-active{
-    display: block;
+    display: block !important;
   }
 /*  #ymq-tab-box2 .ymq-tabs-li{
-    margin-right: 0;
+    margin-right: 0 !important;
   }
   #ymq-tab-box2 .ymq-tab-content-item{
-    border-top: 0;
+    border-top: 0 !important;
   }*/
+
+  #ymq-tab-box2 .ymq-style-1 .ymq-tab-content-item-active{
+    border-top: unset !important;
+  }
