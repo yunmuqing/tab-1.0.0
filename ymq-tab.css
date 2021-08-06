@@ -362,3 +362,14 @@
   #ymq-tab-box2 .ymq-style-1 .ymq-tab-content-item-active{
     border-top: unset !important;
   }
+.ymq_tab_m_show{
+  display: none !important;
+}
+@media(max-width: 768px){
+  .ymq_tab_pc_show{
+    display: none !important;
+  }
+  .ymq_tab_m_show{
+    display: block !important;
+  }
+}
